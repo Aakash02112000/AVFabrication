@@ -1,0 +1,281 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.mdiv {
+    height: 100vh;
+    width: 100%;
+    /*background-image: url(https://w0.peakpx.com/wallpaper/811/152/HD-wallpaper-chemical-plant-at-night-plant-industrial-night-chemical-building.jpg);*/
+    background-image: url(https://images.unsplash.com/photo-1516609107823-bf09823c4e4d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    opacity: 1.3;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.navbar {
+    height: 70px;
+    width: 100%;
+    border-bottom: 3px solid rgb(22, 21, 21);
+    position: fixed;
+}
+
+.navbar ul {
+    display: flex;
+    margin-left: 730px;
+    align-items: center;
+}
+
+.navbar ul li {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: larger;
+    color: rgba(44, 44, 40, 0.807);
+    cursor: pointer;
+    transition-duration: 1s;
+    margin-right: 4px;
+    margin-bottom: 500px;
+    margin-top: 15px;
+}
+
+.btn {
+    height: 35px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(252, 252, 252);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: ;
+    font-size: large;
+    margin-left: 25px;
+}
+
+.logo h2 {
+    margin-left: 80px;
+    margin-top: -65px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo h3 {
+    margin-left: 80px;
+    margin-bottom: px;
+}
+
+.navbar li:hover {
+    transform: scale(1.15);
+}
+
+.actual {
+    color: black;
+    margin-top: 150px;
+    position: ;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bar {
+    height: 40px;
+    width: 850px;
+    border-radius: px;
+    margin-left: 320px;
+    background-color: none;
+    position: fixed;
+    margin-bottom: ;
+    outline: none;
+}
+
+.metals{
+    width: 170px;
+    height: 40px;
+    border-radius: px;
+    margin-left: px;
+    background-color: transparent;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: bold;
+    color: darkblue;
+    text-shadow: 0px 0px 0px;
+    outline: none;
+}
+
+.loc{
+    width: 270px;
+    height: 40px;
+    border-radius: px;
+    margin-left: -4px;
+    background-color: transparent;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: bold;
+    color: darkblue;
+    text-shadow: 0px 0px 0px;
+    outline: none;
+}
+
+.country{
+    width: 220px;
+    height: 40px;
+    border-radius: px;
+    margin-left: -4px;
+    background-color: transparent;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: bold;
+    color: darkblue;
+    text-shadow: 0px 0px 0px;
+    outline: none;
+}
+
+.search{
+    width: 190px;
+    height: 40px;
+    border-radius: px;
+    margin-left: -5px;
+    background-color: gainsboro;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    text-shadow: 10px 120px 10px;
+    outline: none;
+}
+
+.indus {
+    height: 50px;
+    width: 40px;
+    border-radius: 30rem;
+    margin-top: 10px;
+    margin-left: 300px;
+    background-image: url();
+    background-color: white;
+    size: 100%;
+}
+
+.news{
+    margin-top: 22px;
+    font-size: small;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*.lets{
+    height: 300px;
+    width: 50px;
+    margin-left: 13px;
+    margin-top: -350px;
+    color: aliceblue
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+    <div class="lets">
+            <marquee style="color: aliceblue;" direction="down" bgcolor="lightgrey" height="350px" width="100px" behavior="alternate">
+                <p>
+                    <center>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, velit id blanditiis minus
+                        nemo laudantium magnam tenetur error natus.</center>
+                </p>
+            </marquee>
+        </div>
+
+}*/
+
+.logos{
+    position: ;
+    margin-top: 15px;
+    background-color: ;
+}
+
+.logo1 {
+    /*COMPOSITE*/
+    height: 60px;
+    width: 60px;
+    margin-left: 180px;
+    margin-top: 70px;
+    border-radius: 30rem;
+    background-image: url(https://www.shutterstock.com/image-vector/composite-material-aeronautical-engineer-line-600nw-2336401315.jpg);
+    background-size: 100%;
+    background-color: aliceblue;
+}
+
+.logo1:hover{
+    transform: scale(1.2);
+}
+
+.logo2 {
+    /*FABRICATION*/
+    height: 60px;
+    width: 60px;
+    margin-left: 200px;
+    margin-top: 70px;
+    border-radius: 30rem;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/005/385/319/original/gear-and-hammer-service-logo-manufacture-logo-vector.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+}
+
+.logo2:hover{
+    transform: scale(1.2);
+}
+
+.logo3 {
+    /*WELDING*/
+    height: 60px;
+    width: 60px;
+    margin-left: 200px;
+    margin-top: 70px;
+    border-radius: 30rem;
+    background-image: url(https://st4.depositphotos.com/25464256/37833/v/450/depositphotos_378331662-stock-illustration-welding-icon-vetor-illustration-design.jpg);
+    background-size: 100%;
+    background-color: aliceblue;
+}
+
+.logo3:hover{
+    transform: scale(1.2);
+}
+
+.logo4 {
+    /*DRILLING*/
+    height: 60px;
+    width: 60px;
+    margin-left: 200px;
+    margin-top: 70px;
+    border-radius: 30rem;
+    background-image: url(https://media.istockphoto.com/id/1149682191/vector/milling-works-spindle-for-cnc-machine-line-icon.jpg?s=612x612&w=0&k=20&c=WKOKurqIk4DSXusO8xuZkCurqUqAsuKmwQQL7f7rpCA=);
+    background-size: 100%;
+    background-color: aliceblue;
+}
+
+.logo4:hover{
+    transform: scale(1.2);
+}
+
+.logo5 {
+    /*MEASUREMENT*/
+    height: 60px;
+    width: 60px;
+    margin-left: 200px;
+    margin-top: 70px;
+    border-radius: 30rem;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtwEkUQyLZtXREUGAx5J1_sQdMVoYnwB2uTy2ZH7ENj0p_ORreVPaHbCLJcpxCfxSd2ew&usqp=CAU);
+    background-size: 100%;
+    background-color: aliceblue;
+}
+
+.logo5:hover{
+    transform: scale(1.2);
+}
+
+.note{
+    background-color: lightgray;
+    margin-top: 230px;
+}
+
+.note img{
+    margin-bottom: -5px;
+}
